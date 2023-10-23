@@ -44,3 +44,44 @@ h1, h2  {
   justify-content: center;
   align-items: center;
 }
+
+.photo1 , .photo3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.photo2 {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  height: 50px;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+th, td {
+  border: 2px solid;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
