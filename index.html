@@ -2,32 +2,138 @@
 <html lang="en-ca">
 
 <head>
-  <!-- Set the page title -->
   <title>Assignment 02</title>
-
-  <!-- Set the charset we're using to UTF-8 -->
   <meta charset="utf-8" />
-
-  <!-- Set the screens default zoom / scale to 1 -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- Specifies the document mode for Internet Explorer -->
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- We are using a CSS Reset file to standardize browser default css -->
   <link rel="stylesheet" href="./reset.css" />
 
-  <!-- This is where all of our awesome CSS code goes -->
   <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-  <!--
+  <header>
+    <h2>Naha's Blog</h2>
+    <img
+      class="photo1"
+      src="./Logo.png"
+      alt="Naha's Blog logo"/>
+    <nav>
+      <h3>Blog Menu</h3>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About My Blog</a></li>
+        <li><a href="#">Archives</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+  <main>
+    <img class="photo2" src="./Header.png" alt="Header"/>
+    <h1>Welcome to my first Blog !</h1>
+      <p>Dear reader, you are probably wondering why did I choose a musical instrument as a logo to my Blog ? This is not a music blog afterall ! <br> Well, it's time for a fun fact ! </p>
+      <ol>
+        <li>This musical instrument you see in red is called Oud !</li>
+        <li>The cool writing you see in white is the spelling of my name in Arabic !</li>
+        <li>I let you discover another dope fact about the meaning of my name through this short <a href="https://youtu.be/9ZwmX2BAm9Q">video</a> !</li>
+      </ol>
 
-  -->
-  <h1>Assignment 02</h1>
+
+      <section>
+          <h2>Introduction</h2>
+          <p>First of all, let me start by introducing myself ! My name is Nahawend Cherif (aka Naha). I'm a 22 year old girl (turning 23 on October 31st, Halloween yay !), born and raised in a small but very beautiful country in North Africa called Tunisia, until I came to Canada back in September 2019, and I moved from Montreal (QC) to Ottawa (ON) back in June 2021.I am currently a 1st year student at Carleton University, pursuing my bachelor degree in IT.</p>
+          <p>I created this HTML page (first of many to come, hopefully !) as part of my Web Development course, so I decided to make it about...Me ! I will be sharing with you some of my <a href="#hobbies">Hobbies</a> and <a href="#goals">Goals</a>. Sit back and enjoy !</p>
+      </section>
+
+
+      <section>
+        <h2 id="hobbies">Hobbies</h2>
+          <h3>Music</h3>
+            <blockquote>"In a world filled with hate, we must still dare to hope. In a world filled with anger, we must still dare to comfort. In a world filled with despair, we must still dare to dream. And in a world filled with distrust, we must still dare to believe."</blockquote>
+            <p>Those were the thoughtful words said by my idol and favorite artist, <a href="https://youtu.be/HP-c5pRBa7c">Michael Jackson</a>. He was not only a musical genius and the most famous entertainer of all time, Michael Jackson was also one of the most successul individuals in the world and an inspiration on so many levels. The small poor kid from Gary Indiana not only affected the music history by his innovative music videos, choregraphies and fashion, but he also had a global impact through some of his compositions like "Heal The World", "We Are The World", "Man In The Mirror", ""Earth Song", "They Don't Care About Us", "Black Or White" etc.His work didn't cease at revolutionizing music, he was also a great humanitarian and cared for charity through philanthropic activities such as his "Heal The World Foundation", making hospitals visits, donatings million of dollars etc. </p>
+            <p>I am also a huge fan of rock music and artists like Marilyn Manson, Rammstein, Depeche Mode just to name a few, and I am lucky enough to have had the chance to see a few of them live !</p>
+        <section>
+          <h3>Sports</h3>
+            <p>Just like music, sports have always been an important part of my life. I practiced a few sports as a professional athlete and I enjoy watching some others. I am a fond of :</p>
+              <ul>
+                <li>Tennis 
+                  <ul><li>Huge admire of Novak Djokovic.</li></ul>
+                </li>
+                <li>Soccer. 
+                  <ul><li>I support Manchester United.</li></ul>
+                </li>
+                <li>I currently play in the Carleton U Basketball Intramurals.</li>
+              </ul>
+            <p>I also enjoy playing some other sports like Ping Pong and bowling.</p>
+        </section>
+
+        <section>
+          <h3>Volunteering</h3>
+          <p>I try to make a difference and a positive impact and give back to the community through volunteering. I have been a part of nonprofit organizations such as Interact Club, Rotaract Club, Volunteer Ottawa etc.</p>
+        </section>
+      </section>
+
+
+      <section>
+        <h2 id="goals">Goals</h2>
+        <p>I consider myself as a driven, ambitious person who is always looking forward to new experiences and achieving new challenges in life.</p>
+        
+          
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Short Terms Goals</th>
+              <th>Long Term Goals</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Get good grades</td>
+              <td>Have a successuful career</td>
+            </tr>
+            <tr>
+              <td>Go on an exchange term with Carleton University</td>
+              <td>Have my own business and brand</td>
+            </tr>
+           <tr>
+            <td>Keep developing and growing as a person</td>
+            <td>Visit a new country</td>
+           </tr>
+          </tbody>
+        </table>
+    
+      </section>
+
+      <section>
+        <h2 id="form">Stay in Touch</h2>
+        <p>Would you like to subscribe to my newsletter for weekly updates and perhaps to be featured on my blog and be part of my journey ? <br> Please feel free to do so by clicking on the button below ! </p>
+        <a class="button" href="http://127.0.0.1:3000/form.html">Subscribe</a>
+      </section>
+    </main>
+    
+
+    <footer>
+      <h2>Naha's Blog</h2>
+      <img
+      class="photo3"
+        src="./Logo.png"
+        alt="Naha's Blog logo"/>
+      <nav>
+        <h3>Blog Menu</h3>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About My Blog</a></li>
+          <li><a href="#">Archives</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2023 - Design by</p><address><a href="nahawendcherifuni@gmail.com">Nahawend Cherif</a></address>
+    </footer>
 </body>
 
 </html>
+
+
+<!-- final page -->

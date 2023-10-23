@@ -1,19 +1,95 @@
-/*
- * Assignment 02
- * CSS FILE
- */
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: rgb(128,15,47);
+  background: linear-gradient(180deg, rgba(128,15,47,1) 0%, rgba(254,208,187,1) 73%);
+}
+
+footer {
+  background: rgb(128,15,47);
+  background: linear-gradient(0deg, rgba(128,15,47,1) 0%, rgba(254,208,187,1) 73%);
+}
+
+main {
+  background-color: #fed0bb;
 }
 
 h1 {
   font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #023047;
 }
+
+h1, h2  {
+  background: rgb(254,208,187);
+  background: radial-gradient(circle, rgba(254,208,187,1) 7%, rgba(128,15,47,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo1 , .photo3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.photo2 {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  height: 50px;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+th, td {
+  border: 2px solid;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+section , p , h2 , h1 , blockquote {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  font-size: 1rem;
+  width: 10%;
+  padding: 0.5rem;
+  text-decoration:none;
+  font-weight: 700;
+  border-radius: 0.8rem;
+  border-style: solid;
+  border-color: #800f2f;
+  color: #800f2f;
+}
+
+/*final css*/
