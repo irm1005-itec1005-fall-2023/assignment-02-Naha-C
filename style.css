@@ -1,21 +1,7 @@
-/*
- * Assignment 02
- * CSS FILE
- */
-
- /*
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-*/
-
 body {
   display: flex;
   flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -56,6 +42,8 @@ h1, h2  {
   display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 50%;
 }
 
@@ -85,3 +73,21 @@ th, td {
   padding: 15px;
 }
 
+section , p , h2 , h1 , blockquote {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  font-size: 1rem;
+  width: 10%;
+  padding: 0.5rem;
+  text-decoration:none;
+  font-weight: 700;
+  border-radius: 0.8rem;
+  border-style: solid;
+  border-color: #800f2f;
+  color: #800f2f;
+}
